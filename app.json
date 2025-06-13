@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "TradeMate",
+    "slug": "TradeMate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.muhammadharoon07.TradeMate",
+      "googleServicesFile":"./google-services.json",
+      "versionCode": 1,
+      "permissions": [
+        "NOTIFICATIONS",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3f2bdae5-2046-4f88-bf8d-e950909bcfde"
+      }
+    },
+    "owner": "muhammadharoon07"
+  }
+}
